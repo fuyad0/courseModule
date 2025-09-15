@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav-head img{
+    width: 230px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    min-height: 100vh;
+    overflow: auto;
+}
+.menu nav a{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+.menu nav a:hover{
+    background-color: rgb(0, 106, 255);
+}
+.menu nav a:hover{
+    color: white !important;
+}
+.active{
+    background-color: blueviolet;
+    color: #fff !important;
+    border-left: 4px solid aqua;
+}
+.header{
+    margin-left: 3px;
+}
+.pointer{
+    cursor: pointer;
+}
+.box img{
+    max-width: 100px;
+    height: 50px;
+}
+.box .card:hover{
+    scale: 1.1;
+    transition: 1s ease;
+}
+.card-title{
+    font-size: 17px;
+}
+main{
+    border-radius: 10px;
+    margin: 0 10px 0 20px;
+}
+footer{
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 10px;
+    border-radius: 3px;
+    background-color: #dedddd;
+}
+div.button{
+    max-width: 250px;
+    gap: 20px;
+}
+.content-items{
+    border: 1px solid rgb(222, 221, 221);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+.module p{
+    background-color: rgb(222, 221, 221);
+    margin: 0;
+    padding: 10px;
+    border: 1px solid rgb(222, 221, 221);
+    border-radius: 10px 10px 0 0;
+}
